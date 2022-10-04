@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.title {
+	font-size: 2em;
+	font-family: Times new Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 25px;
+	color: black;
+	align-content: flex-start
+}
+
+.text {
+	line-height: 1.8;
+}
+
+.list{
+    list-style-type: circle;
+}
+
+li {
+	list-style: none;
+	margin: 10px;
+}
+nav {
+	background-color: white;
+	grid-column: 1;
+	grid-row: 1 / 4;
+	font-size: 1.5em;
+	color: #777;	
+	
+}
+
+body {
+	display: grid;
+	grid-template-columns: 280px 1fr 1fr;
+	grid-template-rows: 43vw 62vw 58vw 50vw 200px;
+	grid-column-gap: 0px;
+	row-gap: 15px;
+	font-family: Century Gothic, AppleGothic, sans-serif;
+}
+
+.box{
+	border-collapse: collapse;
+}
+.block1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #A5C8E4;
+	grid-column: 2;
+	grid-row: 1 /2;
+	border-radius:15px 0px 0px 15px; /* soften edges */
+	margin-top: 20px;
+}
+.block2 {
+	padding-top: 20px;
+	padding-right: 30px;
+	background-color: #A5C8E4;
+	grid-column: 3;
+	grid-row: 1 / 2;
+	border-radius:0px 15px 15px 0px; /* soften edges */
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+
+.block3 {
+	padding-top: 20px;
+	background-color: #C0ECCC;
+	grid-column: 2;
+	grid-row: 2 / 3;
+	border-radius:15px 0px 0px 15px; /* soften edges */
+}
+.block4 {
+	padding-top: 20px;
+	padding-right: 30px;
+	background-color: #C0ECCC;
+	grid-column: 3;
+	grid-row: 2 / 3;
+	border-radius:0px 15px 15px 0px; /* soften edges */
+	margin-right: 10px;
+}
+
+.block5 {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #F4CDA6;
+	grid-column: 2;
+	grid-row: 3 / 4;
+	border-radius:15px 0px 0px 15px; /* soften edges */
+}
+.block6 {
+	padding-top: 20px;
+	padding-right: 20px;
+	background-color: #F4CDA6;
+	grid-column: 3;
+	grid-row: 3 / 4;
+	border-radius:0px 15px 15px 0px; /* soften edges */
+	margin-right: 10px;
+}
+
+.block7 {
+	padding-top: 20px;
+	background-color: #F6A8A6;
+	grid-column: 2;
+	grid-row: 4 / 5;
+	border-radius:15px 0px 0px 15px; /* soften edges */
+}
+.block8 {
+	padding-top: 20px;
+	background-color: #F6A8A6;
+	grid-column: 3;
+	grid-row: 4 / 5;
+	border-radius:0px 15px 15px 0px; /* soften edges */
+	margin-right: 10px;
+}
+.wrapper { position: relative; }
+
+img {
+	align-self: center;
+	margin-left: 30px;
+	margin-top: 20px;
+	max-width: 85%;
+	border-radius: 10%;
+ }
+
